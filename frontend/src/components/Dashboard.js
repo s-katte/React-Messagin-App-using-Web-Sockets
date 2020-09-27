@@ -1,10 +1,10 @@
 import React from "react";
 import Sidebar from "./Sidebar";
 
-function Dashboard() {
+function Dashboard({ id }) {
   return (
     <div className="d-flex" style={{ height: "100vh" }}>
-      <Sidebar />
+      <Sidebar id={id} />
     </div>
   );
 }
